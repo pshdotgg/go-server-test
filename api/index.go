@@ -10,7 +10,7 @@ var app *gin.Engine
 
 func root(r *gin.RouterGroup) {
 	r.GET("/", func(c *gin.Context) {
-		c.String(http.StatusOK, "Running")
+		c.String(http.StatusOK, "Running!!!")
 	})
 }
 
